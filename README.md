@@ -18,7 +18,7 @@
 7. Сделать Commit функции в главную ветку проекта.
 
 [Список Участников](https://github.com/greg-kargin/DM43/blob/master/список_участников "Список Участников")
-https://github.com/greg-kargin/DM43/blob/master/список_участников
+
 
 [Полный Список Функций](https://docs.google.com/spreadsheets/d/1-2dHqPaKqpi5o34qUxRkuVwe4BvA2Lwo-HIwMRHkDpY/edit#gid=0 "Таблица с Функциями")
 
