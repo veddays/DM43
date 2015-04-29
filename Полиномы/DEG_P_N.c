@@ -4,6 +4,8 @@
 //Необходимо подключение malloc.h
 //Мясоедова, гр.4306
 
+#include <malloc.h>
+
 size_t DEG_P_N (struct POLYNOMIAL st)
   {
     return (_msize(st.factors)/sizeof(st.factors)-1); 
