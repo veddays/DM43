@@ -8,7 +8,6 @@
 void ADD_1N_N(struct NATURAL* natural)
 {
    int i, flag = 0; // flag - проверка на успешность выполнения операции
-   printf("n is %d", (*natural).index);
    if((*natural).index > 0) // проверка на случай, было передано неправильный номер старшего разряда
      {
         for(i=0; i<((*natural).index) && !flag; i++)
@@ -27,7 +26,7 @@ void ADD_1N_N(struct NATURAL* natural)
 	     (*natural).number[i] = (*natural).number[i] + 1; // единица успешно добавлена
 	     flag = 1;
 	  }
-        }
-      else
-      puts("\nError!");
+      }
+    else
+    puts("\nError!");
 }
