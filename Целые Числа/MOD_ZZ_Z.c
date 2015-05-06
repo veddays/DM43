@@ -10,7 +10,7 @@ SUB_Z_Z
 Описание переменных:
 	a - Делимое
 	b - Делитель
-	k - Вспомогательная переменная
+	c, d - Вспомогательные переменные
 	result - Остаток от деления
 Бурыкин Емельян
 Мясоедова Елизавета
@@ -19,10 +19,10 @@ SUB_Z_Z
 
 INTEGER MOD_ZZ_Z(struct INTEGER a, struct NATURAL b)
 {
-  INTEGER result, k;
-  k=DIV_ZZ_Z(a, b);
-  b=TRANS_N_Z(b);
-  k=MULL_ZZ_Z(k, b);
-  result=SUB_Z_Z(a, k);
+  INTEGER result, c, d;
+  c=DIV_ZZ_Z(a, b);
+  d=TRANS_N_Z(b);
+  c=MULL_ZZ_Z(c, d);
+  result=SUB_Z_Z(a, c);
   return result;
 }
